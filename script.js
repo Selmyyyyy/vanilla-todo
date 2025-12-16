@@ -37,3 +37,7 @@ function displayTodos(todos){
 
 
 getAllTodos().then(results => displayTodos(results))
+
+// due tasti nella home (lista di todo)
+// 1) mette in ordine alfabetico
+// 2) mette in ordine dal più nuovo al più vecchio in base alla creationDate
