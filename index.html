@@ -11,15 +11,24 @@
 <body>
     <div class="page">
         <header>
+
             <h1>Todo App</h1>
         </header>
         <main>
+            <div class="sort-btn">
+                <button onclick="orderByTitle()">Ordina per titolo</button>
+                <button onclick="orderByCreationDate()">Ordina per qualcosa</button>
+            </div>
+
+
             <div id="todos-container">
 
             </div>
+        </div>
         </main>
     </div>
 </body>
 <script src="./todo-service.js"></script>
 <script src="./script.js"></script>
+
 </html>

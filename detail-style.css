@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 html, body{
@@ -45,3 +45,25 @@ header{
     background-color: black;
     color: white;
 }
+
+/* .details-info{
+    font-size: x-large;
+    text-decoration: line-through;
+     opacity: 0.6;
+
+} */
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap:  16px;
+}
+
+.colored-dot{
+    min-height: 30px;
+    min-width: 30px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+

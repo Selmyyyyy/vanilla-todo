@@ -1,5 +1,5 @@
 function getAllTodos() {
-    const apiUrl = "https://6941231c686bc3ca8165c454.mockapi.io/api/v1/todos"
+    const apiUrl = "https://6942664d69b12460f310f9af.mockapi.io/api/v1/todos"
 
     return fetch(apiUrl)
     .then(response => response.json())
@@ -8,7 +8,7 @@ function getAllTodos() {
 }
 
 function getTodo(id) {
-    const apiUrl = "https://6941231c686bc3ca8165c454.mockapi.io/api/v1/todos/" + id;
+    const apiUrl = "https://6942664d69b12460f310f9af.mockapi.io/api/v1/todos/" + id;
 
     return fetch(apiUrl)
     .then(response => response.json())
